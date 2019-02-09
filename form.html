@@ -14,6 +14,34 @@
         Date <input type="date"></br>
         Date Time <input type="datetime"></br>
         Radio <input type="radio"></br>
+        Email <input type="email"></br>
+        Photo <input type="file"></br>
+        <!-- radio 버튼 name 값이 같아야 둘 중 하나만 선택하게 만들 수 있음-->
+        Gender <input type="radio" name="gender" value="male"> 남
+                <input type="radio" name="gender" value="female"> 여</br>
+        <!-- check box button name값(name attribute)을 같게 해주어야하고 복수선택 가능-->
+        Languege <input type="checkbox" name="lan" value="kor" checked="checked"> Korean
+                <input type="checkbox" name="lan" value="eng" checked="checked"> English
+                <input type="checkbox" name="lan" value="jap"> Japanese
+                <input type="checkbox" name="lan" value="man"> Mandarin
+                <input type="checkbox" name="lan" value="can"> Cantonese </br>
+        Intro <textarea rows="4" cols="40"> Tell me about yourself </textarea></br>
+        Nationality <select>
+                        <option>South Korea</option>
+                        <option>Japanese</option>
+                        <option>Chinese</option>
+                        <option>Canadian</option>
+                    </select><br/>
+                    <!--select multiple="multiple"을 넣으면 여러개를 고를 수 있다-->
+        Favorite Food <select multiple="multiple">
+                        <option>Kimchi</option>
+                        <option>Bulgogi</option>
+                        <option>Bibimbap</option>
+                        <option>Japchae</option>
+                        <option>Rice Cake</option>
+                    </select></br>
+        <input type="submit"/>
     </form>
+                    
 </body>
 </html>
