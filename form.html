@@ -5,10 +5,22 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <style>
+        input{
+            color: green; font-size: 15px;
+        }
+
+        input[type=text]{
+            color: brown; font-size: 20px;
+        }
+    </style>
 </head>
 <body>
     <!--action:server address, method:get(정보은닉X)/post-->
     <form action="#" method="GET">
+        Name <input type="text"></br>
+        Password <input type="password"></br>
+        Tel <input type="tel"></br>
         checkbox <input type="checkbox"> </br>
         Month <input type="month"/></br>
         Date <input type="date"></br>
